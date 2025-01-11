@@ -70,16 +70,46 @@
     padding: 32px;
 }
 /* for recent news section */
-.recent-news-div{
-    margin: 160px;
-}
+
 .alada{
     display: flex;
     justify-content: center;
     padding: 48px 0;
     gap: 30px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 .pic{
     border-radius: 24px;
+}
+
+/* donate section */
+
+.every{
+    margin: 80px 160px;
+    text-align: center;
+    
+}
+.butn{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.ts{
+    border-radius: 16px;
+    font-size: large;
+    color: #0e0e0ed2;
+    background-color: white;
+    padding: 30px;
+}
+
+.input-design{
+    gap: 24px;
+    color: #0e0e0e1a;
+    padding: 20px ;
+    text-align: center;
+    width: 100%;
+    margin: 32px;
+}
+.for-gap{
+    margin: 24px;
 }
