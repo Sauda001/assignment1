@@ -1,0 +1,18 @@
+/* for header serction */
+.first-block{
+    background-color: #C6E4D6;
+    display: flex;
+    padding: 80px 50px;
+    border-radius: 30px;
+    margin: 160px;
+}
+.text-color{
+    color: #0E0E0E;
+}
+
+.btn-design{
+    color: #FFFFFF;
+    padding: 30px 30px;
+    background-color: #006A50;
+    border-radius: 8px;
+}
