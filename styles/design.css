@@ -6,7 +6,7 @@
     padding: 80px 50px;
     border-radius: 30px;
     margin: 160px;
-    font-size: 56px;
+    /* font-size: 56px; */
 }
 .text-color{
     color: #0e0e0e7e;
@@ -68,4 +68,18 @@
     background-color: #C6E4D6;
     border-radius: 16px;
     padding: 32px;
+}
+/* for recent news section */
+.recent-news-div{
+    margin: 160px;
+}
+.alada{
+    display: flex;
+    justify-content: center;
+    padding: 48px 0;
+    gap: 30px;
+    background-color: white;
+}
+.pic{
+    border-radius: 24px;
 }
