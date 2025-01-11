@@ -1,6 +1,6 @@
 body{
     background-color: #F5F5F5;
-    font-family: "Merriweather", serif;
+    font-family: "Fira Sans", serif;
 
 }
 
@@ -14,13 +14,26 @@ font-weight: 500;
 /* .font-bolder {
 font-family: "Merriweather", serif;
 font-weight: bolder;
-}    */
 
-
+} */
 
 /* .font-bold {
+font-family: "Merriweather", serif;
 font-weight: 700;
 
+} */
+
+/* .font40{
+    font-size: 40px;
+}
+.font30{
+    font-size: 30px;
+}
+.font20{
+    font-size: 20px;
+}
+.font16{
+    font-size: 16px;
 } */
 /* for header serction */
 .first-block{
@@ -42,17 +55,16 @@ font-weight: 700;
     padding: 17px 34px;
     background-color: #006A50;
     border-radius: 8px;
-    font-size: 18px;
+    /* font-size: 18px; */
     border: none;
     transition: .3s ease-out;
 }
 .first-block button:hover{
     scale: 1.1;
-    background-color: #37a774be;
 }
 .text-color{
     color: #0e0e0e7e;
-    /* font-family: "Merriweather", serif; */
+    font-family: "Merriweather", serif;
     /* font-size: 30px; */
     font-display: bold;
 }
@@ -61,18 +73,24 @@ font-weight: 700;
     color: #FFFFFF;
     padding: 17px 34px;
     background-color: #006A50;
-    /* border-top-right-radius: 8px; */
-    /* border-bottom-right-radius: 8px; */
-    font-size: 18px;
-    border: none;
     border-radius: 8px;
-    
+    /* font-size: 18px; */
+    border: none;
+    transition: .3s ease-out;
 }
 .btn-design:hover{
-    background-color: lightseagreen;
-    scale: 1.1;
+    scale: 1.05;
+    font-size: 20px;
 }
-.btn-design1{
+.btn-design{
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+}
+.SubscribeButton{
     color: #FFFFFF;
     padding: 17px 34px;
     background-color: #006A50;
@@ -80,7 +98,6 @@ font-weight: 700;
     border-bottom-right-radius: 8px;
     font-size: 18px;
     border: none;
-    
 }
 /* for main part */
 .mgn{
@@ -88,7 +105,9 @@ font-weight: 700;
 }
 
 .vission{
+
     display: flex;
+    justify-content: space-between;
     gap: 24px;
 }
 .btn-1{
@@ -98,6 +117,11 @@ font-weight: 700;
     padding: 11px 20px;
     gap: 24px;
     border: none;
+    transition: .3s ease-out;
+}
+.btn-1:hover{
+    scale: 1.05;
+    transform: translateY(-1px);
 }
 .btn-2{
     color: white;
@@ -106,6 +130,12 @@ font-weight: 700;
     padding: 11px 20px;
     gap: 24px;
     border: none;
+    transition: .3s ease-out;
+
+}
+.btn-2:hover{
+    scale: 1.05;
+    transform: translateY(-1px);
 }
 .btn-3{
     color: white;
@@ -114,6 +144,12 @@ font-weight: 700;
     padding: 11px 20px;
     gap: 24px;
     border: none;
+    transition: .3s ease-out;
+
+}
+.btn-3:hover{
+    scale: 1.05;
+    transform: translateY(-1px);
 }
 .div-1{
     background-color: #81B4FC;
@@ -136,6 +172,7 @@ font-weight: 700;
     display: flex;
     justify-content: center;
     padding: 48px 0;
+    align-items: center;
 }
 .pic{
     border-radius: 24px;
@@ -153,6 +190,9 @@ font-weight: 700;
 .every{
     margin: 80px 160px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 .butn{
@@ -167,6 +207,9 @@ font-weight: 700;
     background-color: white;
     padding: 30px;
 }
+.ts:hover{
+    background-color:#C6E4D6 ;
+}
 
 .input-design{
     gap: 24px;
@@ -174,7 +217,9 @@ font-weight: 700;
     padding: 20px ;
     text-align: center;
     width: 100%;
-    margin: 32px;
+    margin: 30px auto;
+    border-radius: 0px;
+    width: 70%;
 }
 .for-gap{
     margin: 24px;
@@ -215,4 +260,78 @@ footer{
     justify-content: center;
     gap: 23px;
     padding: 30px;
+}
+
+
+/* chalange  */
+
+.cont
+{
+    /* width:95%; */
+    border: 1px solid rgba(14, 14, 14, .15);
+    margin-top: 32px;
+    border-radius: 24px;
+
+}
+.baground
+{
+
+
+    margin-top: 30px;
+    margin-left: 10px;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.quote
+{   
+    margin: 10px 20px 0px 0px;    
+}
+
+table
+{
+    border-collapse: collapse;
+}
+th,tr,td{
+    border: 1px solid rgb(122, 122, 122);
+    height: 70px;
+    padding: 10px;
+}
+
+th
+{
+    background-color: #C6E4D6;
+}
+table{
+    width: 95%;
+}
+
+select{
+    padding: 20px;
+    border: none;
+    background-color: #C6E4D6;
+}
+
+
+
+
+.pillar{
+    width: 1536px;
+
+}
+
+.cont2
+{   
+    display: flex;
+    width: 100%;
+    margin-top: 32px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    width: 280px;
+    background-color: blanchedalmond;
+    border-radius: 24px;
+    padding:15px;
 }
