@@ -5,14 +5,27 @@
     padding: 80px 50px;
     border-radius: 30px;
     margin: 160px;
+    font-size: 56px;
 }
 .text-color{
-    color: #0E0E0E;
+    color: #0e0e0e7e;
 }
 
 .btn-design{
     color: #FFFFFF;
-    padding: 30px 30px;
+    padding: 17px 34px;
     background-color: #006A50;
     border-radius: 8px;
+    font-size: 18px;
+    
+}
+/* for main part */
+.vission{
+    display: flex;
+}
+.btn-1{
+    color: white;
+    border-radius: 8px;
+    background-color: #5490F5;
+    padding: 11px 20px;
 }
