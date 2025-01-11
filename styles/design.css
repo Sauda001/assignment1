@@ -4,37 +4,12 @@ body{
 
 }
 
-/* font   */
-
-/* .font-regular {
-font-family: "Merriweather", serif;
-font-weight: 500;
-} */
-
-/* .font-bolder {
-font-family: "Merriweather", serif;
-font-weight: bolder;
-
-} */
-
-/* .font-bold {
-font-family: "Merriweather", serif;
-font-weight: 700;
-
-} */
-
-/* .font40{
-    font-size: 40px;
-}
-.font30{
-    font-size: 30px;
-}
 .font20{
     font-size: 20px;
 }
 .font16{
     font-size: 16px;
-} */
+} 
 /* for header serction */
 .first-block{
     background-color: #C6E4D6;
@@ -45,11 +20,7 @@ font-weight: 700;
     margin: 160px;
     /* font-size: 56px; */
 }
-/* .first-block h1{
-    font-family: "Merriweather", serif;
-    font-size: 40px;
-    font-display: bolder;
-} */
+
 .first-block button{
     color: #FFFFFF;
     padding: 17px 34px;
