@@ -2,6 +2,7 @@
 .first-block{
     background-color: #C6E4D6;
     display: flex;
+    justify-content: center;
     padding: 80px 50px;
     border-radius: 30px;
     margin: 160px;
@@ -24,9 +25,10 @@
 .mgn{
     margin: 160px;
 }
+
 .vission{
     display: flex;
-    margin: 24px;
+    gap: 24px;
 }
 .btn-1{
     color: white;
